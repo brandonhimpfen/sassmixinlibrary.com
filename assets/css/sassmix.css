@@ -1,0 +1,16 @@
+:root{
+  --brand-primary:#CD6799;
+  --brand-primary-rgb:205,103,153;
+}
+
+body{padding-top:3.5rem;}
+
+.hero{
+  min-height:52vh;
+  background-image:linear-gradient(rgba(var(--brand-primary-rgb),.85),rgba(var(--brand-primary-rgb),.85));
+  background-color:var(--brand-primary);
+  background-size:cover;
+  background-position:center;
+}
+
+.bg-body-tertiary{background-color:#f6f7f9 !important;}
